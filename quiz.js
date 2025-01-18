@@ -9,7 +9,7 @@ function checkAnswer() {
 if (userAnswer === correctAnswer) {
 
     if (userAnswer.value === correctAnswer) {
-    feedback.textContent = 'correct! well done';
+    feedback.textContent = "Correct! Well done.";
     feedback.style.color = 'green';
     } else {
         feedback.textContent = 'Thats incorrect. Try again';
