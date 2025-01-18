@@ -8,7 +8,7 @@ function checkAnswer() {
 
 if (userAnswer) {
 
-    if (userAnswer === correctAnswer) {
+    if (userAnswer.value === correctAnswer) {
     feedback.textContent = 'correct! well done';
     feedback.style.color = 'green';
     } else {
